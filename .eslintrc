@@ -1,0 +1,15 @@
+{
+    "extends": "@react-native-community",
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "quotes": "off"
+    },
+    "parseOptions": {
+        "requireConfigFile": false,
+        "babelOptions": {
+            "parseOpts": {
+                "plugins": ["jsx"]
+            }
+        }
+    }
+}
