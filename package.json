@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js",
+    "lint-fix": "eslint . --ext .js --fix"
   },
   "dependencies": {
     "@expo-google-fonts/nunito": "^0.2.3",
@@ -30,7 +32,8 @@
     "react-native-screens": "4.4.0",
     "react-native-svg": "15.8.0",
     "react-native-webview": "13.12.5",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "expo-updates": "~0.26.18"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

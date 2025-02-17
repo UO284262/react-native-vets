@@ -4,10 +4,10 @@
         "react/react-in-jsx-scope": "off",
         "quotes": "off"
     },
-    "parseOptions": {
+    "parserOptions": {
         "requireConfigFile": false,
         "babelOptions": {
-            "parseOpts": {
+            "parserOpts": {
                 "plugins": ["jsx"]
             }
         }
