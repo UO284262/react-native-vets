@@ -1,6 +1,6 @@
 import { ScrollView, TouchableOpacity } from "react-native";
 
-import { VetInfoCompactComponent } from "./vet-info-compact.component";
+import { VetInfoCompactComponent } from "./vet-info-compact-card.component";
 import { FavouritesWrapper } from "../theme/styles";
 
 export const FavouritesBarComponent = ({ favourites, onNavigate }) => {

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Marker, Callout } from "react-native-maps";
 import { LocationContext } from "../services/location.context";
-import { VetInfoCompactComponent } from "../components/vet-info-compact.component";
+import { VetInfoCompactComponent } from "../components/vet-info-compact-card.component";
 import { SearchComponent } from "../components/search.component";
 import { VetsContext } from "../services/vets.context";
 import { Map } from "../theme/styles";
