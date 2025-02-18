@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "place_id": "O1",
+      "location": {
+        "lat": 43.368549707339824,
+        "lng": -5.856734139691145, 
+      },
+      "name": "Centro Clínico Veterinario Dr. Armando Solís",
+      "open_now": false,        
+      "photo": "https://lh3.googleusercontent.com/p/AF1QipMk-UhAXcbsaTIfB9rCZiX8jRaLkBQk3j--Zmlb=s680-w680-h510",
+      "rating": 4.7,
+      "address": "C. Naranjo de Bulnes, 14, 33012 Oviedo, Asturias",
+      "services": ["diagnostic tests", "vaccination", "identification", "internal medicine",  "hairdressing", "shop", "acupuncture"],
+      "email": "generic_email@gmail.com",
+      "phone": "666666666",
+      "web_site": "https://www.google.com"
+    },
+    {
+      "place_id": "O2",
+      "location": {
+        "lat": 43.36387991707177,
+        "lng": -5.856373266113526, 
+      },
+      "name": "MiVet Clínica Veterinaria Cervantes",
+      "open_now": true,        
+      "photo": "https://lh5.googleusercontent.com/p/AF1QipOK3GCa5qqMVUB7QStHH2XttJQVOiL5lWfviJeL=w284-h160-k-no",
+      "rating": 3.9,
+      "address": "C. Cervantes, 16, B, 33004 Oviedo, Asturias",
+      "services": ["diagnostic tests", "vaccination", "identification", "internal medicine", "shop"],
+      "email": "generic_email@gmail.com",
+      "phone": "666666666",
+      "web_site": "https://www.google.com"
+    },
+    {
+      "place_id": "O3",
+      "location": {
+        "lat": 43.36099391190183,
+        "lng": -5.851645822246717, 
+      },
+      "name": "Clinica Veterinaria Kerry Blue",
+      "open_now": false,        
+      "photo": "https://lh3.googleusercontent.com/p/AF1QipOMW1OFQ23Furn_-uKrZ9ByuscyPbR3M6PxRg-V=s680-w680-h510",
+      "rating": 5,
+      "address": "C. Sta. Susana, 31, 33007 Oviedo, Asturias",
+      "services": ["diagnostic tests", "vaccination", "identification", "shop"],
+      "email": "generic_email@gmail.com",
+      "phone": "666666666",
+      "web_site": "https://www.google.com"
+    },
+    {
+      "place_id": "O4",
+      "location": {
+        "lat": 43.36346014303389,
+        "lng": -5.861064622622572, 
+      },
+      "name": "Centro Veterinario Masip",
+      "open_now": true,        
+      "photo": "https://lh3.googleusercontent.com/p/AF1QipOOnq63juwaNYDgCYT0KLrut2Su23Bf3vcTfa1U=s680-w680-h510",
+      "rating": 4.7,
+      "address": "C. de Gloria Fuertes, 28, 33013 Oviedo, Asturias",
+      "services": ["vaccination", "identification", "internal medicine", "shop"],
+      "email": "generic_email@gmail.com",
+      "phone": "666666666",
+      "web_site": "https://www.google.com"
+    },
+    {
+      "place_id": "O5",
+      "location": {
+        "lat": 43.36353885088725,
+        "lng": -5.8385100240213905, 
+      },
+      "name": "Clínica Veterinaria Ronda Sur",
+      "open_now": true,        
+      "photo": "https://lh3.googleusercontent.com/p/AF1QipOpGVNzbpKJysYLC5pI7JgNwDSVr9ahT4GhKX_J=s680-w680-h510",
+      "rating": 4.8,
+      "address": "Rda. Sur, 1, 33010 Oviedo, Asturias",
+      "services": ["diagnostic tests", "vaccination", "identification", "internal medicine",  "hairdressing", "shop"],
+      "email": "generic_email@gmail.com",
+      "phone": "666666666",
+      "web_site": "https://www.google.com"
+    },
+  ],
+}
