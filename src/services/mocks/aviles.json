@@ -4,14 +4,20 @@
       "place_id": "A1",
       "location": {
         "lat": 43.56103270072599,
-        "lng": -5.925565771037505, 
+        "lng": -5.925565771037505
       },
       "name": "Sabuvet",
-      "open_now": true,        
+      "open_now": true,
       "photo": "https://lh5.googleusercontent.com/p/AF1QipMUpBfHLtq0WScKr7v4bZ7v7-TmLL3f8PWSNqrP=w426-h240-k-no",
       "rating": 5,
       "address": "C. de la Cámara, 56, 33401 Avilés, Asturias",
-      "services": ["diagnostic tests", "vaccination", "identification", "internal medicine",  "shop"],
+      "services": [
+        "diagnostic tests",
+        "vaccination",
+        "identification",
+        "internal medicine",
+        "shop"
+      ],
       "email": "generic_email@gmail.com",
       "phone": "666666666",
       "web_site": "https://www.google.com"
@@ -20,14 +26,21 @@
       "place_id": "A2",
       "location": {
         "lat": 43.55149539818053,
-        "lng": -5.918803057573454, 
+        "lng": -5.918803057573454
       },
       "name": "Centro Veterinario Wecan La Villa",
-      "open_now": true,        
+      "open_now": true,
       "photo": "https://lh3.googleusercontent.com/p/AF1QipML6Le-8xgw3yStYJfxTMoa1GJacKrCkIWDeH2o=s680-w680-h510",
       "rating": 4.5,
       "address": "C. Gutiérrez Herrero, 1, Bajo, 33402 Avilés, Asturias",
-      "services": ["diagnostic tests", "vaccination", "identification", "internal medicine",  "hairdressing", "shop"],
+      "services": [
+        "diagnostic tests",
+        "vaccination",
+        "identification",
+        "internal medicine",
+        "hairdressing",
+        "shop"
+      ],
       "email": "generic_email@gmail.com",
       "phone": "666666666",
       "web_site": "https://www.google.com"
@@ -36,14 +49,22 @@
       "place_id": "A3",
       "location": {
         "lat": 43.55521903274759,
-        "lng": -5.927681290913939, 
+        "lng": -5.927681290913939
       },
       "name": "Clínica Veterinaria Avilesina",
-      "open_now": true,        
+      "open_now": true,
       "photo": "https://lh3.googleusercontent.com/p/AF1QipPXBdsnUo8OrHZZdOPnbcmoC-CB3J9iTsgRkZ3o=s680-w680-h510",
       "rating": 4.5,
       "address": "Av. Fernández Balsera, 40, 33402 Avilés, Asturias",
-      "services": ["diagnostic tests", "vaccination", "identification", "internal medicine",  "hairdressing", "shop", "acupuncture"],
+      "services": [
+        "diagnostic tests",
+        "vaccination",
+        "identification",
+        "internal medicine",
+        "hairdressing",
+        "shop",
+        "acupuncture"
+      ],
       "email": "generic_email@gmail.com",
       "phone": "666666666",
       "web_site": "https://www.google.com"
@@ -52,14 +73,20 @@
       "place_id": "A4",
       "location": {
         "lat": 43.54530566413898,
-        "lng": -5.909510501751853, 
+        "lng": -5.909510501751853
       },
       "name": "Centro Veterinario El Carmen",
-      "open_now": false,        
+      "open_now": false,
       "photo": "https://lh3.googleusercontent.com/p/AF1QipPMJCqak-UGC2CnRFch-Fp9TDqE0iibvpkoI4oK=s680-w680-h510",
       "rating": 4.7,
       "address": "C. Carmen, 26, 33403 Avilés, Asturias",
-      "services": ["diagnostic tests", "vaccination", "identification", "hairdressing", "shop"],
+      "services": [
+        "diagnostic tests",
+        "vaccination",
+        "identification",
+        "hairdressing",
+        "shop"
+      ],
       "email": "generic_email@gmail.com",
       "phone": "666666666",
       "web_site": "https://www.google.com"
@@ -68,17 +95,23 @@
       "place_id": "A5",
       "location": {
         "lat": 43.55935376569236,
-        "lng": -5.929722671681202, 
+        "lng": -5.929722671681202
       },
       "name": "Clínica Veterinaria Guau",
-      "open_now": true,        
+      "open_now": true,
       "photo": "https://lh3.googleusercontent.com/p/AF1QipNHV1XHTtTTx_Yj0lMea6T7J7qMc7cAB6d3Me2i=s680-w680-h510",
       "rating": 4.6,
       "address": "C. José Cueto, 36, bajo, 33401 Avilés, Asturias",
-      "services": ["diagnostic tests", "vaccination", "identification", "hairdressing", "shop"],
+      "services": [
+        "diagnostic tests",
+        "vaccination",
+        "identification",
+        "hairdressing",
+        "shop"
+      ],
       "email": "generic_email@gmail.com",
       "phone": "666666666",
       "web_site": "https://www.google.com"
-    },
-  ],
+    }
+  ]
 }
