@@ -45,7 +45,6 @@ export const VetsScreen = ({ navigation }) => {
             />
             <FilterComponent
                 colection={vetsContext.vets}
-                filteredColection={vets == null ? vetsContext.vets : vets}
                 setFilterColection={setVets}
                 style={filterStyle}
                 buttonStyle={buttonStyle}

@@ -9,6 +9,25 @@ import {
 } from "react-native-paper";
 import { SearchContainer } from "../theme/styles";
 
+
+/**
+ * colection: Colección de elementos a filtrar
+ * setFilterColection: Método set de un useState para filtrar las colecciones
+ * filters: Array de filtros que se quieren crear. Este array tendrá la siguiente forma:
+ *  - Para filtros de tipo string:
+ *      + ['fieldName', 'string', 'mode']
+ *      + Modes:
+ *          - 'contains': Presencia de texto
+ *          - 'regex': Coincidencia con la expresión regular
+ *          - 'exact': Coincidencia exacta del texto
+ *  - Para filtros de tipo numérico:
+ *      + ['fieldName', 'numeric', 'mode']
+ *      + Modes: gt, gte, lt, lte, eq
+ *  - Para filtros de tipo selection:
+ *      + ['fieldName', 'selection', ['values','options']] 
+ * styles: Estilo que se va a aplicar a los inputs
+ * buttonSyle: Estilo que se va a aplicar a los botones
+ */
 export const FilterComponent = ({
     colection,
     setFilterColection,
@@ -16,22 +35,18 @@ export const FilterComponent = ({
     style,
     buttonStyle,
 }) => {
-    // Estado para controlar la visibilidad de los filtros
+
     const [expanded, setExpanded] = useState(true);
-    // Estado centralizado para guardar el valor de cada filtro, por campo
     const [filterValues, setFilterValues] = useState({});
 
-    // Actualiza el valor de un filtro específico
     const handleFilterChange = (field, value) => {
         setFilterValues((prev) => ({ ...prev, [field]: value }));
     };
 
-    // Función que aplica todos los filtros sobre la colección original
     const applyFilters = () => {
         let filtered = colection;
         filters.forEach(([field, type, modeOrOptions]) => {
             const value = filterValues[field];
-            // Si el filtro está vacío, es "all" o no se ha modificado, se ignora
             if (value === undefined || value === "" || value === "all") return;
 
             if (type === "string") {
@@ -47,7 +62,6 @@ export const FilterComponent = ({
                         const regex = new RegExp(value);
                         filtered = filtered.filter((item) => regex.test(item[field]));
                     } catch (e) {
-                        // Si la expresión regular es inválida, no se filtra
                     }
                 } else if (modeOrOptions === "exact") {
                     filtered = filtered.filter((item) => item[field] === value);
@@ -82,7 +96,6 @@ export const FilterComponent = ({
             >
                 {expanded ? "Ocultar filtros" : "Mostrar filtros"}
             </Button>
-            {/* Mantenemos los filtros montados, ocultándolos con estilos */}
             <View style={[{ display: expanded ? "flex" : "none" }, style]}>
                 {filters.map((f, index) => {
                     const [field, type, modeOrOptions] = f;
@@ -109,7 +122,7 @@ export const FilterComponent = ({
                             <SelectionFilter
                                 key={index}
                                 field={field}
-                                options={modeOrOptions} // Aquí modeOrOptions es el array de opciones
+                                options={modeOrOptions}
                                 onChange={(value) => handleFilterChange(field, value)}
                             />
                         );
@@ -117,11 +130,10 @@ export const FilterComponent = ({
                         return null;
                     }
                 })}
-                {/* Botón para aplicar todos los filtros de una vez */}
                 <Button
                     mode="contained"
                     onPress={applyFilters}
-                    style={{ marginTop: 10 }}
+                    style={buttonStyle}
                 >
                     Filtrar
                 </Button>
