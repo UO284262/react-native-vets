@@ -13,6 +13,7 @@ import {
   IsOpened,
   Address,
   Icon,
+  VetType,
 } from "../theme/styles";
 
 export const VetInfoCardComponent = ({ vet }) => {
@@ -36,6 +37,7 @@ export const VetInfoCardComponent = ({ vet }) => {
           <Icon source={require("../../assets/icon.png")} />
         </Details>
         <Address>{vet.address}</Address>
+        <VetType>{vet.type}</VetType>
       </Info>
     </VetCard>
   );

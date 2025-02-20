@@ -5,6 +5,7 @@ import { VetInfoCompactComponent } from "../components/vet-info-compact-card.com
 import { SearchComponent } from "../components/search.component";
 import { VetsContext } from "../services/vets.context";
 import { Map } from "../theme/styles";
+
 export const MapScreen = ({ navigation }) => {
   const { location } = useContext(LocationContext);
   const { vets } = useContext(VetsContext);

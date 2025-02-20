@@ -1,113 +1,123 @@
 {
-  "results": [
-    {
-      "place_id": "G1",
-      "location": {
-        "lat": 43.542961830696164,
-        "lng": -5.668852532168355
-      },
-      "name": "Centro Veterinario San Esteban",
-      "open_now": true,
-      "photo": "https://lh3.googleusercontent.com/p/AF1QipNpQuOJ7M-f-MyitYos2_FO5wsun5upSXZLaRln=s680-w680-h510",
-      "rating": 4.8,
-      "address": "C. Belmonte de Miranda, 3, 33206 Gijón, Asturias",
-      "services": [
-        "vaccination",
-        "identification",
-        "internal medicine",
-        "shop"
-      ],
-      "email": "generic_email@gmail.com",
-      "phone": "666666666",
-      "web_site": "https://www.google.com"
-    },
-    {
-      "place_id": "G2",
-      "location": {
-        "lat": 43.53885549677764,
-        "lng": -5.6700541617614935
-      },
-      "name": "Centro Veterinario San Lorenzo",
-      "open_now": true,
-      "photo": "https://lh3.googleusercontent.com/p/AF1QipNPfTyPG0A2SWBH-sXLnwLD8zUZaJxxSE4mT61D=s680-w680-h510",
-      "rating": 4.7,
-      "address": "C. Infiesto, 17, 33207 Gijón, Asturias",
-      "services": [
-        "diagnostic tests",
-        "vaccination",
-        "identification",
-        "internal medicine",
-        "shop"
-      ],
-      "email": "generic_email@gmail.com",
-      "phone": "666666666",
-      "web_site": "https://www.google.com"
-    },
-    {
-      "place_id": "G3",
-      "location": {
-        "lat": 43.53729999423001,
-        "lng": -5.651257241697397
-      },
-      "name": "Hospital Veterinario Asturias",
-      "open_now": true,
-      "photo": "https://lh3.googleusercontent.com/p/AF1QipNSaQ2SIV56Udnt0Z6To9a3CzlDC-96CaIsVpjp=s680-w680-h510",
-      "rating": 4.6,
-      "address": "Av. Pablo Iglesias, 73, 33204 Gijón, Asturias",
-      "services": [
-        "diagnostic tests",
-        "vaccination",
-        "identification",
-        "internal medicine",
-        "hairdressing",
-        "shop"
-      ],
-      "email": "generic_email@gmail.com",
-      "phone": "666666666",
-      "web_site": "https://www.google.com"
-    },
-    {
-      "place_id": "G4",
-      "location": {
-        "lat": 43.534251092833784,
-        "lng": -5.659411156793694
-      },
-      "name": "Clínica Veterinaria M&D",
-      "open_now": false,
-      "photo": "https://lh3.googleusercontent.com/p/AF1QipOj_KIcvIDbthsfS2kz1Qpjx1IxcMZNThNJf0oC=s680-w680-h510",
-      "rating": 4.7,
-      "address": "C. León XIII, 11, 33209 Gijón, Asturias",
-      "services": [
-        "diagnostic tests",
-        "vaccination",
-        "identification",
-        "internal medicine",
-        "shop"
-      ],
-      "email": "generic_email@gmail.com",
-      "phone": "666666666",
-      "web_site": "https://www.google.com"
-    },
-    {
-      "place_id": "G5",
-      "location": {
-        "lat": 43.52802836676549,
-        "lng": -5.649454797307689
-      },
-      "name": "Hospital Veterinario Menes",
-      "open_now": true,
-      "photo": "https://lh3.googleusercontent.com/p/AF1QipMtytAz_LN8x65HbP8c-BZNIviM1QAaXXzt_ZxZ=s680-w680-h510",
-      "rating": 5,
-      "address": "C. Daniel Palacio Fernández, 15, 33204 Gijón, Asturias",
-      "services": [
-        "diagnostic tests",
-        "vaccination",
-        "identification",
-        "shop"
-      ],
-      "email": "generic_email@gmail.com",
-      "phone": "666666666",
-      "web_site": "https://www.google.com"
-    }
-  ]
+    "results": [
+        {
+            "place_id": "G1",
+            "location": {
+                "lat": 43.542961830696164,
+                "lng": -5.668852532168355
+            },
+            "name": "Centro Veterinario San Esteban",
+            "open_now": true,
+            "photo": "https://lh3.googleusercontent.com/p/AF1QipNpQuOJ7M-f-MyitYos2_FO5wsun5upSXZLaRln=s680-w680-h510",
+            "rating": 4.8,
+            "avgPrice": 20,
+            "address": "C. Belmonte de Miranda, 3, 33206 Gijón, Asturias",
+            "type": "public",
+            "services": [
+                "vaccination",
+                "identification",
+                "internal medicine",
+                "shop"
+            ],
+            "email": "generic_email@gmail.com",
+            "phone": "666666666",
+            "web_site": "https://www.google.com"
+        },
+        {
+            "place_id": "G2",
+            "location": {
+                "lat": 43.53885549677764,
+                "lng": -5.6700541617614935
+            },
+            "name": "Centro Veterinario San Lorenzo",
+            "open_now": true,
+            "photo": "https://lh3.googleusercontent.com/p/AF1QipNPfTyPG0A2SWBH-sXLnwLD8zUZaJxxSE4mT61D=s680-w680-h510",
+            "rating": 4.7,
+            "avgPrice": 25,
+            "address": "C. Infiesto, 17, 33207 Gijón, Asturias",
+            "type": "private",
+            "services": [
+                "diagnostic tests",
+                "vaccination",
+                "identification",
+                "internal medicine",
+                "shop"
+            ],
+            "email": "generic_email@gmail.com",
+            "phone": "666666666",
+            "web_site": "https://www.google.com"
+        },
+        {
+            "place_id": "G3",
+            "location": {
+                "lat": 43.53729999423001,
+                "lng": -5.651257241697397
+            },
+            "name": "Hospital Veterinario Asturias",
+            "open_now": true,
+            "photo": "https://lh3.googleusercontent.com/p/AF1QipNSaQ2SIV56Udnt0Z6To9a3CzlDC-96CaIsVpjp=s680-w680-h510",
+            "rating": 4.6,
+            "avgPrice": 45,
+            "address": "Av. Pablo Iglesias, 73, 33204 Gijón, Asturias",
+            "type": "public",
+            "services": [
+                "diagnostic tests",
+                "vaccination",
+                "identification",
+                "internal medicine",
+                "hairdressing",
+                "shop"
+            ],
+            "email": "generic_email@gmail.com",
+            "phone": "666666666",
+            "web_site": "https://www.google.com"
+        },
+        {
+            "place_id": "G4",
+            "location": {
+                "lat": 43.534251092833784,
+                "lng": -5.659411156793694
+            },
+            "name": "Clínica Veterinaria M&D",
+            "open_now": false,
+            "photo": "https://lh3.googleusercontent.com/p/AF1QipOj_KIcvIDbthsfS2kz1Qpjx1IxcMZNThNJf0oC=s680-w680-h510",
+            "rating": 4.7,
+            "avgPrice": 40,
+            "address": "C. León XIII, 11, 33209 Gijón, Asturias",
+            "type": "private",
+            "services": [
+                "diagnostic tests",
+                "vaccination",
+                "identification",
+                "internal medicine",
+                "shop"
+            ],
+            "email": "generic_email@gmail.com",
+            "phone": "666666666",
+            "web_site": "https://www.google.com"
+        },
+        {
+            "place_id": "G5",
+            "location": {
+                "lat": 43.52802836676549,
+                "lng": -5.649454797307689
+            },
+            "name": "Hospital Veterinario Menes",
+            "open_now": true,
+            "photo": "https://lh3.googleusercontent.com/p/AF1QipMtytAz_LN8x65HbP8c-BZNIviM1QAaXXzt_ZxZ=s680-w680-h510",
+            "type": "public",
+            "rating": 5,
+            "avgPrice": 65,
+            "address": "C. Daniel Palacio Fernández, 15, 33204 Gijón, Asturias",
+            "services": [
+                "diagnostic tests",
+                "vaccination",
+                "identification",
+                "shop"
+            ],
+            "email": "generic_email@gmail.com",
+            "phone": "666666666",
+            "web_site": "https://www.google.com"
+        }
+    ]
 }

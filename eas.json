@@ -1,10 +1,10 @@
 {
-  "build": {
-  "emulator": {
-  "android": {
-  "buildType": "apk"
-  }
-  },
-  "production": {}
-  }
-} 
+    "build": {
+        "emulator": {
+            "android": {
+                "buildType": "apk"
+            }
+        },
+        "production": {}
+    }
+}
