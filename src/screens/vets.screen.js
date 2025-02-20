@@ -8,6 +8,7 @@ import { FadeInAnimation } from "../animations/fade-in.animation";
 import { FavouritesBarComponent } from "../components/favourites-bar.component";
 import { FavouritesContext } from "../data/favourites.context";
 import { SearchComponent } from "../components/search.component";
+import { FilterComponent } from "../components/search-filter.component";
 
 export const VetsScreen = ({ navigation }) => {
   const vetsContext = useContext(VetsContext);
@@ -20,10 +21,15 @@ export const VetsScreen = ({ navigation }) => {
           <Loading />
         </LoadingContainer>
       )}
-      <SearchComponent
-        from="vets"
-        isFavouritesToggled={isToggled}
-        onFavouritesToggle={() => setIsToggled(!isToggled)}
+      <FilterComponent
+        colecion={vetsContext.vets}
+        setFilterColection={vetsContext.setVets}
+        filters={[
+          ["name", "string", "contains"],
+          ["rating", "numeric", "gte"],
+          ["price", "numeric", "lte"],
+          ["type", "selection", ["vet", "clinic"]],
+        ]}
       />
       {isToggled && (
         <FavouritesBarComponent
