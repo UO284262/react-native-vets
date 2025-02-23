@@ -1,8 +1,8 @@
 {
     "build": {
-        "emulator": {
-            "android": {
-                "buildType": "apk"
+        "simulator": {
+            "ios": {
+                "simulator": true
             }
         },
         "production": {}

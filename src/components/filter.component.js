@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { View } from "react-native";
 import { Picker } from "@react-native-picker/picker";
-import { TextInput, Button, Surface, HelperText } from "react-native-paper";
+import { TextInput, Button, Surface } from "react-native-paper";
 import { SearchContainer } from "../theme/styles";
 
 /**

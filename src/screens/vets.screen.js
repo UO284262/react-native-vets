@@ -3,13 +3,7 @@ import { FlatList, TouchableOpacity } from "react-native";
 
 import { VetsContext } from "../services/vets.context";
 import { VetInfoCardComponent } from "../components/vet-info-card.component";
-import {
-  LoadingContainer,
-  Loading,
-  NumericFilter,
-  StringFilter,
-  SelectionFilter,
-} from "../theme/styles";
+import { LoadingContainer, Loading } from "../theme/styles";
 import { FadeInAnimation } from "../animations/fade-in.animation";
 import { FavouritesBarComponent } from "../components/favourites-bar.component";
 import { FavouritesContext } from "../data/favourites.context";
